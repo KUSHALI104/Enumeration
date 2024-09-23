@@ -33,27 +33,40 @@ Google hacking, also known as Google dorking, is a technique that involves using
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
 
+![image](https://github.com/user-attachments/assets/2cb284ae-7e9a-477b-b6ad-86806c2e5bd6)
+
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
+
+![image](https://github.com/user-attachments/assets/2d22213d-5d12-4655-852a-bc03c664f3bf)
 
 
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
 
+![image](https://github.com/user-attachments/assets/16bef8fc-a783-4132-960e-d2c362636df3)
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
 
+![image](https://github.com/user-attachments/assets/ec84dded-9164-4a11-9029-6da5da58e35e)
+
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+
+![image](https://github.com/user-attachments/assets/def2d039-5362-469c-b053-b1926e20e404)
 
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
 
+![image](https://github.com/user-attachments/assets/dd8960f8-9b55-4007-8a3a-d04fd33e4d77)
+
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 
+![image](https://github.com/user-attachments/assets/3a2d9c65-2b4a-477f-a2dc-07488e501471)
+
  
-#DNS Enumeration
+# DNS Enumeration
 
 
-##DNS Recon
+## DNS Recon
 provides the ability to perform:
 Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
@@ -61,10 +74,7 @@ Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
 
-
-
-
-
+![image](https://github.com/user-attachments/assets/f714443e-9ffc-4e36-95e5-e004f7da5367)
 
 
 ##dnsenum
@@ -81,6 +91,10 @@ Perform reverse lookups on netranges (C class or/and whois netranges) (threaded)
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
 
+![image](https://github.com/user-attachments/assets/8d7a3dd8-a74a-4069-8e24-b6d37799348c)
+
+![image](https://github.com/user-attachments/assets/cce472a7-5c76-48bc-b869-cde591057037)
+
 
 ##smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
@@ -96,7 +110,8 @@ Telnet allows to connect to remote host based on the port no. For smtp port no i
 telnet <host address> 25 to connect
 and issue appropriate commands
   
- ##Output
+ # Output
+![image](https://github.com/user-attachments/assets/3e77eaeb-7d1e-441a-8b95-51a3a8067410)
   
   
 
@@ -106,6 +121,7 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/ab4b7c9c-b35e-421d-b9e4-44e44cfe96bb)
 
 
 ## RESULT:
